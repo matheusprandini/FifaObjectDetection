@@ -6,7 +6,7 @@ In order to cope with this task, this project used the SSD MobileNet V2 (availab
 
 ## 1 - Creating Dataset
 
-Step 1: Collected 150 images that contain the desired objects (Split training/test = 85%/15%). The images are 
+Step 1: Collected 150 images that contain the desired objects (Split training/test = 85%/15%).
 
 Step 2: Annotate the images (labeling the images) in order to create the xml files using [LabelImg](https://github.com/tzutalin/labelImg).
 
