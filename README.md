@@ -6,9 +6,9 @@ In order to cope with this task, this project used the SSD MobileNet V2 (availab
 
 ## 1 - Creating Dataset
 
-Step 1: Collected 150 images containing the desired objects (Split training/test = 85%/15%).
+Step 1: Collecting 150 images containing the desired objects (Split training/test = 85%/15%).
 
-Step 2: Annotate the images (labeling the images) in order to create the xml files using [LabelImg](https://github.com/tzutalin/labelImg).
+Step 2: Annotating the images (labeling the images) in order to create the xml files using [LabelImg](https://github.com/tzutalin/labelImg).
 
 Installing LabelImg:
 
@@ -29,7 +29,7 @@ Example:
 
 ## 2 - Training the model
 
-The jupyter notebook [FifaObjectDetection](https://github.com/matheusprandini/FifaObjectDetection/blob/master/Fifa_Object_Detection.ipynb) contains all the proccess to train the model in Google Colab using GPU/TPU.
+The jupyter notebook [FifaObjectDetection](https://github.com/matheusprandini/FifaObjectDetection/blob/master/Fifa_Object_Detection.ipynb) contains all the proccess to train the model in Google Colab using GPU.
 
 ## 3 - Testing the model (FINAL MODEL)
 
